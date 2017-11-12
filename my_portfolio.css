@@ -1,0 +1,56 @@
+
+body {
+  background: url(background.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 50px;
+    color: black;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+#heading {
+    background-color: white;
+    height: 10%;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 9.5px;
+    border-radius: 25px;
+    opacity: 0.96;
+}
+
+#description {
+    background-color: white;
+    height: 100%;
+    width: 85%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    border-radius: 25px;
+    opacity: 0.7;
+}
+
+#border {
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  width: 85%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#photo {
+}
