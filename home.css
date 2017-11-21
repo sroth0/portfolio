@@ -1,0 +1,71 @@
+
+/*nav bar*/
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #F5F5F5;
+  height: 70px;
+  width: 100%;
+  opacity: .9;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #FF4500;
+}
+
+.home, .about, .work, .contact {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 25px;
+  color: black;
+  padding-top: 15px;
+}
+
+.home, .about:hover, .work:hover, .contact:hover {
+  color: #FFA500;
+}
+
+
+/*main area*/
+
+html,body {
+  background: url("background2.png") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.main {
+  background: url("me.png")no-repeat;
+  background-position: top right;
+  height: 100vh;
+  background-size: cover;
+  opacity: .6;
+}
+
+.name {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Fredoka One', cursive;
+  color: #FFFFFF;
+  font-size: 80px;
+  text align: left;
+  padding-top: 150px;
+  padding-left: 50px;
+
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Fredoka One', cursive;
+  color: #FFFFFF;
+  font-size: 40px;
+  text align: left;
+  padding-top: 150px;
+  padding-left: 80px;
+}

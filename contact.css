@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #F5F5F5;
+  height: 70px;
+  width: 100%;
+  opacity: .7;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF4500;
+}
+
+.home, .about, .work, .contact {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 25px;
+  color: black;
+  padding-top: 15px;
+}
+
+.home, .about:hover, .work:hover, .contact:hover {
+  color: #FFA500;
+}
+
+html, body {
+			background-image: url("background2.png");
+			background-repeat:  no-repeat;
+			background-size:  cover;
+			/*height: 100vh;*/
+}
+
+
+#pic-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  opacity: 0.6;
+	padding-bottom: 50px;
+}
